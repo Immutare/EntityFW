@@ -4,15 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-
 namespace VidzyCodeFirst
 {
-    class Program
+    public class Genre
     {
-
-        static void Main(string[] args)
-        {
-
-        }
+        public int Id { get; set; }
+        public string Name { get; set; }
+        public IList<Video> Videos { get; set; }
     }
 }
