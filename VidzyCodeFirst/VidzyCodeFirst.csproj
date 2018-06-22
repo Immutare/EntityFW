@@ -58,6 +58,10 @@
     <Compile Include="Migrations\201806222140189_RelationalBetweenVideosGenres.Designer.cs">
       <DependentUpon>201806222140189_RelationalBetweenVideosGenres.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201806222158214_DeletedVideoFKGenre.cs" />
+    <Compile Include="Migrations\201806222158214_DeletedVideoFKGenre.Designer.cs">
+      <DependentUpon>201806222158214_DeletedVideoFKGenre.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -74,6 +78,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201806222140189_RelationalBetweenVideosGenres.resx">
       <DependentUpon>201806222140189_RelationalBetweenVideosGenres.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201806222158214_DeletedVideoFKGenre.resx">
+      <DependentUpon>201806222158214_DeletedVideoFKGenre.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
